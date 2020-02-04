@@ -1,0 +1,67 @@
+.moviebox{
+    width:310px;
+    height:450px;
+    display:flex;
+    flex-direction:column;
+    margin:2% 4%;
+    border:1px solid rgb(194, 191, 191);
+    
+  }
+
+  .moviebox img {
+      height: 75%;
+  }
+  .movieinfo{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-content: center;
+    margin:1% 4%;
+    font-weight: 700 ;
+    color: rgb(83, 0, 0);
+  }
+  .Rating{
+   margin-top: 5%;
+    }
+  .movieinfo button:hover{
+  opacity:100%;
+  }
+  .moviebox:hover{ 
+    box-shadow: 4px 6px 20px 4px grey;
+  }
+  .movieboxes{
+    display: flex;
+    margin:5% 0%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .btns{
+    display:flex;
+    justify-content: space-around;
+  } 
+  .btns button{
+    width:70px;
+    background-color: white;
+    color: rgb(83, 0, 0);
+    border: 1px solid rgb(83, 0, 0);
+    border-radius: 5px;
+  }
+  .bttn:hover{
+    background-color: rgb(83, 0, 0);
+    color: white;
+    transform: translate(2px, 1px);
+    
+  }
+  .description{
+    background-color: black;
+    border-radius: 5px;
+    width: 40%;
+    font-size: 14px;
+    align-self: center; 
+    text-align: center;
+    margin-bottom: 2%;
+  }
+.link{
+  color: white;
+  text-decoration: none;
+}

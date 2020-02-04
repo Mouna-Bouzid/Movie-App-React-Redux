@@ -1,0 +1,18 @@
+.Description-Format{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin:3%;
+}
+.Description{
+    width:70%;
+    border-radius: 5px;
+    background-color: rgb(83, 0, 0);
+    color: white;
+    align-self: center;
+    padding:2% 4%;
+    margin:10%;
+}
+h1{
+    margin:3% 0%;
+}
